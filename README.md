@@ -1,6 +1,6 @@
 # How to start
 
-## Creare env:
+## Create env:
 ```
 python3 -m venv myvenv
 ```
