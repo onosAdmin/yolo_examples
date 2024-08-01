@@ -1,0 +1,43 @@
+
+path: /tmp/miniexample_mio/datasets
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['rock']
+
+
+augmentations:
+  # Horizontal flip probability
+  flipud: 0.5
+  # Vertical flip probability
+  fliplr: 0.5
+  # HSV color augmentation
+  hsv_h: 0.015
+  hsv_s: 0.7
+  hsv_v: 0.4
+  # Mosaic augmentation
+  mosaic: 1.0
+  # Mixup augmentation
+  mixup: 0.2
+  # Scale factor range
+  scale: 0.5
+  # Rotation range
+  rotate: 10.0
+  # Shear factor
+  shear: 2.0
+  # Translation range
+  translate: 0.1
+
+
+
+roboflow:
+  workspace: footarch
+  project: rockdetection-jxnap
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/footarch/rockdetection-jxnap/dataset/1
+  
+  
+ 
