@@ -1,5 +1,7 @@
 # How to start
 
+
+
 ## Create env:
 ```
 python3 -m venv myvenv
@@ -110,6 +112,3 @@ Starting training for 100 epochs...
 
 See :
 https://colab.research.google.com/drive/1Sv3_0S4zhZT763bBMjYxf0HhTit4Bvh6?usp=sharing#scrollTo=LyopYpK1TQrB
-
-
-
