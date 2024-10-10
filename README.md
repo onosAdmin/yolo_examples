@@ -15,6 +15,7 @@ source myvenv/bin/activate
 ``` 
 pip3 install tensorboard install -q supervision
 pip3 install huggingface_hub
+pip3 install -q git+https://github.com/THU-MIG/yolov10.git
 ```
 
 
